@@ -1,0 +1,24 @@
+#mainContainer {
+width: $containerwidth;
+height: $containerheight;
+padding: $padding;
+position: absolute;
+}
+
+.line div{
+width: $boxsize;
+height: $boxsize;
+display: inline-block;
+padding: $margin;
+margin: $padding;
+border: $borderOptions;
+position: relative;
+}
+
+.line div:nth-child(odd){
+background-color: $color2;
+}
+
+.line div:nth-child(even){
+  background-color: $color1;
+}

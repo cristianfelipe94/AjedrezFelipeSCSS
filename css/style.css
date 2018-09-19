@@ -1,0 +1,22 @@
+#mainContainer {
+  width: 738px;
+  height: 526px;
+  padding: 0;
+  position: absolute; }
+
+.line div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  position: relative; }
+
+.line div:nth-child(odd) {
+  background-color: white; }
+
+.line div:nth-child(even) {
+  background-color: black; }
+
+/*# sourceMappingURL=style.css.map */
